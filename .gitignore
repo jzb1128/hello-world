@@ -1,0 +1,38 @@
+# ===== 密钥与敏感配置（绝不提交）=====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa*
+id_ed25519*
+secrets.*
+credentials.*
+config.local.*
+*.local.json
+
+# ===== 依赖目录 =====
+node_modules/
+vendor/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# ===== 构建产物 =====
+dist/
+build/
+out/
+target/
+*.log
+
+# ===== 编辑器与系统文件 =====
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
